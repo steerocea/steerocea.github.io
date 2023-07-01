@@ -1,0 +1,45 @@
+/* CSS Reset */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    width: 800px; /* Adjust the width to your preference */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  header, nav, main, footer {
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  main section {
+    margin-bottom: 40px;
+  }
+  
+  footer {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
