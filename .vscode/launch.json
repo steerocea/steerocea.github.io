@@ -4,11 +4,12 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\Gorilla Rig\\OneDrive\\Documents\\Personal Website\\PersonalWebsite\\index.html"
+            "file": "c:\\Users\\Gorilla Rig\\OneDrive\\Documents\\Personal Website\\PersonalWebsiteNew\\index.html"
         }
     ]
 }
