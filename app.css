@@ -12,6 +12,13 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
     width: 1200px; /* Adjust the width to your preference */
     margin: 0 auto; /* Center the container horizontally */
   }
+
+  section#about img {
+    float: right;
+    width: 300px; /* Adjust the width of the image */
+    height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+    margin: 0 0 10px 10px; /* Adjust the margin for spacing */
+  }
   
   header, nav, main, footer {
     padding: 20px;
@@ -22,6 +29,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
   }
   
   nav ul {
+    float: right;
     list-style-type: none;
   }
   
@@ -42,4 +50,51 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
   footer {
     background-color: #f2f2f2;
     text-align: center;
+  }
+
+  section#portfolio .game {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  section#portfolio img {
+    max-width: 120px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  section#portfolio img:hover {
+    opacity: 0.8;
+  }
+  
+  section#portfolio .game_descript {
+    margin-left: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    section#portfolio .game {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    section#portfolio .game_descript {
+      margin: 10px 0 0;
+    }
+  }
+
+  section#portfolio .game_page {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  section#portfolio .about-section {
+    flex-basis: 66.67%;
+    margin-right: 20px;
+  }
+  
+  section#portfolio .links-section {
+    flex-basis: 33.33%;
   }
