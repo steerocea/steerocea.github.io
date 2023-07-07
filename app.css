@@ -42,6 +42,11 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
     text-decoration: none;
     color: #333;
   }
+
+  nav ul li a:hover {
+    text-decoration: none;
+    color: #348cff;
+  }
   
   main section {
     margin-bottom: 40px;
