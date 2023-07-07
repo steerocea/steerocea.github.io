@@ -115,3 +115,19 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
   section#portfolio .links-section {
     flex-basis: 33.33%;
   }
+
+  section .image-with-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  section .image-with-text img {
+    width: 120px; /* Adjust the width of the image */
+    height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+    margin-right: 20px; /* Adjust the margin for spacing */
+  }
+  
+  section .image-with-text .text {
+    flex-grow: 1;
+  }
