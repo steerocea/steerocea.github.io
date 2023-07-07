@@ -59,8 +59,8 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
   }
   
   section#portfolio img {
-    max-width: 120px;
-    height: auto;
+    width: 120px;
+    height: 100px;
     border: 1px solid #ccc;
     border-radius: 5px;
   }
