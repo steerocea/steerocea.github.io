@@ -5,11 +5,12 @@
     "version": "0.2.0",
     "configurations": [
 
+
         {
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "c:\\Users\\Gorilla Rig\\OneDrive\\Documents\\Personal Website\\PersonalWebsiteNew\\index.html"
+            "file": "c:\\Users\\Gorilla Rig\\OneDrive\\Documents\\Personal Website\\PersonalWebsiteNew\\steerocea.github.io\\index.html"
         }
     ]
 }

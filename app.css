@@ -13,6 +13,12 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
     margin: 0 auto; /* Center the container horizontally */
   }
 
+  .logo img {
+    width: 50px; /* Adjust the width to your preference */
+    height: auto;
+    margin: 0 auto; /* Center the container horizontally */
+  }
+
   section#about img {
     float: right;
     width: 300px; /* Adjust the width of the image */
@@ -41,6 +47,12 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
   nav ul li a {
     text-decoration: none;
     color: #333;
+  }
+
+  nav ul li a img {
+    width: 30px; /* Adjust the width of the image */
+    height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+    margin: 0 0 10px 10px; /* Adjust the margin for spacing */
   }
 
   nav ul li a:hover {
