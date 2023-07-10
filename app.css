@@ -9,7 +9,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
   }
 
   .container {
-    width: 1200px; /* Adjust the width to your preference */
+    width: auto; /* Adjust the width to your preference */
     margin: 0 auto; /* Center the container horizontally */
   }
 
@@ -76,6 +76,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
     width: 30px;
     height: auto;
     margin-right: 5px;
+    padding: 5px;
   }
 
   nav ul li a:hover {
