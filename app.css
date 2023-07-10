@@ -88,6 +88,10 @@
     color: #348cff;
   }
 
+  nav ul li a:hover img {
+    filter: invert(41%) sepia(72%) saturate(1587%) hue-rotate(198deg) brightness(102%) contrast(101%);
+  }
+
   a {
     text-decoration: none;
     color: #333;
@@ -153,12 +157,17 @@ section#about img {
     border-radius: 5px;
   }
 
-  section#portfolio img:hover {
+  section#portfolio .game:hover img {
     opacity: 0.8;
   }
   
   section#portfolio .game_descript {
     margin-left: 20px;
+  }
+
+  section#portfolio .game:hover h3 {
+    text-decoration: none;
+    color: #348cff;
   }
   
   @media (max-width: 768px) {
