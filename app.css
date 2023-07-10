@@ -1,5 +1,8 @@
-/* CSS Reset */
-body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  /** 
+  * Main Styling 
+  **/
+
+  body, h1, h2, h3, h4, h5, h6, p, ul, li {
     margin: 0;
     padding: 0; 
   } 
@@ -12,6 +15,14 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
     width: auto; /* Adjust the width to your preference */
     margin: 0 auto; /* Center the container horizontally */
   }
+
+  header, nav, main, footer {
+    padding: 20px;
+  }
+
+  /**
+  * Header Styling 
+  **/
 
   header {
     display: flex;
@@ -40,16 +51,9 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
     margin-right: 10px;
   }
 
-  section#about img {
-    float: right;
-    width: 300px; /* Adjust the width of the image */
-    height: auto; /* Automatically adjust the height while maintaining aspect ratio */
-    margin: 0 0 10px 10px; /* Adjust the margin for spacing */
-  }
-
-  header, nav, main, footer {
-    padding: 20px;
-  }
+  /**
+  * Nav Styling 
+  **/
 
   nav {
     margin-left: auto; /* Pushes the navigation to the right */
@@ -84,13 +88,6 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
     color: #348cff;
   }
 
-  section#portfolio nav ul li a img {
-    width: 30px;
-    height: auto;
-    margin-right: 5px;
-    padding: 5px;
-  }
-
   a {
     text-decoration: none;
     color: #333;
@@ -119,6 +116,28 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
   footer {
     background-color: #f2f2f2;
     text-align: center;
+  }
+
+/**
+* About Section 
+**/
+
+section#about img {
+  float: right;
+  width: 300px; /* Adjust the width of the image */
+  height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+  margin: 0 0 10px 10px; /* Adjust the margin for spacing */
+}
+
+/**
+* Portfolio Section 
+**/
+
+  section#portfolio nav ul li a img {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+    padding: 5px;
   }
 
   section#portfolio .game {
