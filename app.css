@@ -21,13 +21,6 @@
     background-color: #348cff;
   }
 
-  .bottom-bar {
-    height: 4px;
-    width: 70%; 
-    margin: 0 auto; 
-    background-color: #348cff;
-  }
-
   .container {
     width: auto; /* Adjust the width to your preference */
     margin: 0 auto; /* Center the container horizontally */
